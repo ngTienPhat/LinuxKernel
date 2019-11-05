@@ -1,0 +1,3 @@
+[ 5574.062902] [RandomGenerator]: created
+[ 5574.062906] [RandomGenerator]: register device file's numbers successfully - (Major, Minor): (250, 0)
+[ 5596.445392] [RandomGenerator]: Open[RandomGenerator]: random number: 3198
