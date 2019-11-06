@@ -74,9 +74,12 @@ static void __exit removeModule(void){
 
 static ssize_t device_read(struct file* f, char __user *buf, size_t len, loff_t *off){
     int randNumber = 0;
+
+    // get random number
     get_random_bytes(&randNumber, sizeof(randNumber));
     randNumber = randNumber%(MAX_RAND - MIN_RAND) + MIN_RAND;
     
+    // return for user
     printk("[%s]: random number: %d\n", DEVICE_NAME, randNumber);
     copy_to_user(buf, &randNumber, sizeof(randNumber));
 
