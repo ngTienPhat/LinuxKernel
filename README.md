@@ -67,11 +67,10 @@ This process will print a string to `hookprofile.txt`. Run `dmesg` to see what h
 >>> dmesg
 ``` 
 
-For example, we can see the notification of writing syscall from our hooking module.
+For example, we can see the notification of writing and opening syscall from our hooking module.
 ```
-[ 3408.399612] HOOK: [765][cupsd]: write 237 bytes to /etc/cups/subscriptions.conf.N
-[ 3408.399711] HOOK open syscall
-
+...
 [ 3414.760017] HOOK: [3353][test]: open file /home/tienphat/Documents/OS/hookprofile.txt
-[ 3414.760096] HOOK: [3353][test]: write 76 bytes to /home/tienphat/Documents/OS/hookprofile.txt
+[ 3414.760096] HOOK: [3353][test]: write 17 bytes to /home/tienphat/Documents/OS/hookprofile.txt
+...
 ```

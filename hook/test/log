@@ -4653,7 +4653,7 @@
 [ 3414.759771] HOOK: [3353][test]: open file /lib/x86_64-linux-gnu/libc.so.6
 [ 3414.760016] HOOK open syscall
 [ 3414.760017] HOOK: [3353][test]: open file /home/tienphat/Documents/OS/hookprofile.txt
-[ 3414.760096] HOOK: [3353][test]: write 76 bytes to /home/tienphat/Documents/OS/hookprofile.txt
+[ 3414.760096] HOOK: [3353][test]: write 17 bytes to /home/tienphat/Documents/OS/hookprofile.txt
 [ 3420.157689] HOOK open syscall
 [ 3420.157693] HOOK: [3354][bash]: open file mylog
 [ 3420.158102] HOOK open syscall
